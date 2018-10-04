@@ -3826,3 +3826,8 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE   RESPONSIVE
 		align-items: center;
 	}
 }
+
+.slideopac {
+	opacity: 0.5;
+	filter: grayscale(opacity=50);
+}
