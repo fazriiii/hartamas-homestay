@@ -1,9 +1,9 @@
 /*------------------------------------------------------------------
-Project:  Pato
-Version:  
+Project:  Hartamas Homestay
+Version:  1.0
 Last change:  
-Assigned to:  Kevin Nguyen
-Primary use:  Company
+Assigned to:  Shaz
+Primary use:  Business
 -------------------------------------------------------------------*/
 /*------------------------------------------------------------------
 [LAYOUT]
@@ -489,7 +489,7 @@ input[type="date" i] {
   top: 0;
   left: 0;
   z-index: 100;
-  border-top: 5px solid #ec1d25;
+  border-top: 5px solid #246be3;
 }
 
 .wrap_header {
@@ -509,7 +509,7 @@ input[type="date" i] {
 .header-fixed .wrap-menu-header {
   position: fixed;
   height: 100px;
-  background: rgba(255,255,255,0.9);
+  background: #A7C4DEE6;
   box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
 }
 
@@ -577,7 +577,7 @@ input[type="date" i] {
   font-weight: 400;
   font-size: 14px;
   text-transform: uppercase;
-  color: white;
+  color: #222222;
   padding: 15px;
 }
 
@@ -586,7 +586,7 @@ input[type="date" i] {
 }
 
 .main_menu > li:hover > a {
-  color: #ec1d25;
+  color: white;
   text-decoration: none;
 }
 
@@ -667,7 +667,7 @@ input[type="date" i] {
 }
 
 .social a:hover {
-  color: #ec1d25;
+  color: yellow;
 }
 
 .btn-show-sidebar {
@@ -935,13 +935,14 @@ input[type="date" i] {
 }
 
 .slick1-dots li.slick-active button {
-    border: 3px solid white;
-    background-color: #d41b22;
+    border: 3px solid #45a4ea;
+    background-color: #fafcff;
 } 
 
 /*[ Caption ]
 -----------------------------------------------------------
 */
+
 @media (max-width: 768px) {
   .wrap-content-slide1 .tit1 {
     font-size: 70px;
@@ -954,11 +955,15 @@ input[type="date" i] {
 
 @media (max-width: 576px) {
   .wrap-content-slide1 .tit1 {
-    font-size: 60px;
+    font-size: 50px;
   }
 
   .wrap-content-slide1 .txt1 {
-    font-size: 50px;
+    font-size: 25px;
+  }
+
+  .social a{
+    display: none
   }
 }
 

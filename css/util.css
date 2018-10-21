@@ -2967,7 +2967,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	font-family: Courgette;
 	font-size: 30px;
 	line-height: 1.2;
-	color: #d61c22;
+	color: #9cc;
 }
 
 .tit3 {
@@ -3196,7 +3196,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	font-family: Noto+Sans;
 	font-size: 14px;
 	line-height: 1.7;
-	color: #999999;
+	color: white;
 }
 
 .txt18 {
@@ -3563,8 +3563,8 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 -----------------------------------------------------------
 */
 .bg0 {background-color: #ec1d25;}
-.bg1 {background-color: #222222;}
-.bg2 {background-color: #111111;}
+.bg1 {background-color: #3E6B79;}
+.bg2 {background-color: #A7C4DE;}
 
 .bg0-hov:hover {background-color: #ec1d25;}
 
